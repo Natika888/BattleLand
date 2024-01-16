@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@300;400;500;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/main.min.css" />
+        <link
+            rel="shortcut icon"
+            href="./images/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>Battle Land</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <nav class="header__nav">
+                    <a href="#" class="logo">
+                        <img
+                            src="./images/logo.svg"
+                            alt="Logo"
+                            class="logo__img"
+                        />
+                    </a>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#home" class="menu__link colored">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#product" class="menu__link">Product</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="menu__btn">Login</button>
+                </nav>
+
+                <div class="burger__menu visually-hidden">
+                    <a href="#" class="logo">
+                        <img
+                            src="./images/logo.svg"
+                            alt="Logo"
+                            class="logo__img"
+                        />
+                    </a>
+                    <button
+                        class="burger__menu-btn menu-btn-open"
+                        type="button"
+                    >
+                        <svg class="burger__menu-svg" width="24" height="24">
+                            <use href="./images/icons.svg#icon-menu"></use>
+                        </svg>
+                    </button>
+                </div>
+                <button
+                    class="menu__btn-close menu-btn-close visually-hidden"
+                    type="button"
+                >
+                    <svg
+                        class="icon-close"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                    >
+                        <path
+                            d="M8 8L16 16L24 8"
+                            stroke="#011C44"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                        />
+                        <path
+                            d="M8 24L16 16L24 24"
+                            stroke="#011C44"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <main></main>
+        <footer class="footer"></footer>
+    </body>
+</html>
