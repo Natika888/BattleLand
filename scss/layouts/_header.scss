@@ -4,6 +4,12 @@
 
     &__container {
         width: 70%;
+        @media  (max-width:1440px) {
+            width: 85%;
+        }
+        @media  (max-width:1200px) {
+            width: 100%;
+        }
     }
 
     // .header__nav
